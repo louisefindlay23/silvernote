@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	height:auto;
+	padding:0;
+	overflow:auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#wrapper{
+	position:fixed;
+	width:200%;
+	height:auto;
+	overflow:auto;
+}
+
+#menu{
+	display: inline-block;
+	cursor: pointer;
+	position: fixed;
+	z-index: 12;
+	left:95%;
+	top:5%;
+}
+
+.bar1, .bar2, .bar3{
+	width:30px;
+	height:5px;
+	background-color: #ffffff;
+	margin:6px;
+	transition: ease 0.5s;
+}
+
+.change .bar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2{
+	opacity: 0;
+}
+
+.change .bar3{
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.overlay{
+	position:fixed;
+	z-index:10;
+	height:100vh;
+	width:100%;
+	bottom:100%;
+	transition: ease 0.5s;
+	background:rgba(0,0,0,0.77);
+}
+
+.over{
+	bottom:0;
+}
+
+#nav{
+	list-style-type: none; 
+}
+
+.list{
+	width:100%;
+	text-align: center;
+	margin: 3% auto;
+	font-size:2vw;
+}
+
+.list a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+#home{
+	position: relative;
+	float:left;
+	height:100vh;
+	width:50%;
+	overflow:auto;
+	background:url(../img/sn3.jpg) center;
+	background-size:cover;
+}
+
+#logo{
+	height:60vh;
+	background: url(../img/snlogo.png) center;
+	background-size:cover;
+	width:90%;
+	margin:auto;
+	position: relative;
+	top:10%;
+}
+
+#start{
+	width:10%;
+	overflow:auto;
+	margin:5% auto;
+	background-color: rgba(255,255,255,0.5);
+	border:solid 2px #000000;
+	z-index:10;
+	cursor: pointer;
+}
+
+.startp{
+	width:100%;
+	font-size:1vw;
+	text-align: center;
+}
+
+#start:hover{
+	background:rgba(0,0,0,0.5);
+	color:#ffffff;
+}
+
+#about{
+	position: relative;
+	height:100vh;
+	width:50%;
+	overflow:auto;
+	background:url(../img/sn2.jpg) center;
+	background-size:cover;
+	float:left;
+}
