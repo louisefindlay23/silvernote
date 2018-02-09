@@ -8,6 +8,8 @@ $(document).ready(function(){
 		
 		$("#about").animate({left:'0'});
 		
+		$("#artists").animate({top:"100%"});
+		
 		$("#menu").removeClass("change");
 		
 		$(".overlay").removeClass("over");
@@ -19,6 +21,8 @@ $(document).ready(function(){
 		$("#about").animate({left:'-50%'});
 		
 		$("#home").animate({left:'0'});
+		
+		$("#artists").animate({top:"100%"});
 		
 		$("#menu").removeClass("change");
 		
@@ -34,10 +38,23 @@ $(document).ready(function(){
 		
 	});
 	
-	$(".startp").click(function(){
+	$("#start").click(function(){
 		
 		$("#about").animate({left:'-50%'});
 		
+	});
+	
+	$("#art").click(function(){
+		
+		$("#artists").animate({top:"0"});
+		
+		$("#home").animate({left:'0'});
+		
+		$("#about").animate({left:"0"});
+		
+		$("#menu").removeClass("change");
+		
+		$(".overlay").removeClass("over");
 	});
 	
 });
