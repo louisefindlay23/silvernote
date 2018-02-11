@@ -313,6 +313,21 @@ video {
 	transition: 0.5s all;
 }
 
+#right{
+	position: relative;
+	width:4%;
+	height:auto;
+	overflow:auto;
+	padding:0 0 4% 0;
+	background: url(../img/arrowr.png) center;
+	background-size:cover;
+	transition:ease 0.5s;
+	cursor: pointer;
+	top:50%;
+	left:3%;
+	float:left;
+}
+
 /* About */
 
 .tab-vertical{
@@ -387,12 +402,36 @@ video {
 	text-align: center;
 }
 
+#up{
+	position: relative;
+	width:4%;
+	height:auto;
+	overflow:auto;
+	padding:0 0 4% 0;
+	background: url(../img/arrowu.png) center;
+	background-size:cover;
+	top: 85%;
+	left:33%;
+	transition:ease 0.5s;
+	cursor: pointer;
+}
+
+.arrow:hover{
+	opacity:0.6
+}
 
 /* EVENT PAGE */
 
+#welcome-content {
+	height: 100vh;
+    display: flex;
+    justify-content: space-around;
+	align-content: flex-start;
+}
+
 .event-logo {
     max-width: 500px;
-    margin: 4% auto;
+    margin: 15% auto;
 }
 
 .event-logo img {

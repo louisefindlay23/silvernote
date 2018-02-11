@@ -40,7 +40,7 @@ $(document).ready(function(){
 	
 	$("#start").click(function(){
 		
-		$("#about").animate({left:'-50%'});
+		$("#about").animate({left:'0'});
 		
 	});
 	
@@ -68,6 +68,18 @@ $(document).ready(function(){
 		$("#menu").removeClass("change");
 		
 		$(".overlay").removeClass("over");
+		
+	});
+	
+	$("#up").click(function(){
+		
+		$("#artists").animate({top:"0"});
+		
+	});
+	
+	$("#right").click(function(){
+		
+		$("#event").animate({right:"0"});
 		
 	});
 	
