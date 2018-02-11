@@ -5,6 +5,7 @@
 	<title>SilverNote</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/js.js"></script>
 </head>
@@ -28,223 +29,237 @@
 		</div>
 		<video playsinline autoplay muted loop>
 			<source src="img/band.mp4" type="video/mp4">
-		</video>
-		<section id="home">
-			<div id="logo"></div>
-			<div id="start">
-				<p class="startp">Let's start!</p>
+			</video>
+			<section id="home">
+				<div id="logo"></div>
+				<div id="start">
+					<p class="startp">Let's start!</p>
+				</div>
+			</section>
+			<section id="about">
+				<div id="about-wrapper">
+					
+					<div class="tab-vertical">
+						<button class="tablinks active" onClick="openAbout(event,'About1')">Who we are</button>
+						<button class="tablinks active" onClick="openAbout(event,'About2')">Our Mission</button>
+						<button class="tablinks active" onClick="openAbout(event,'About1')">The Crew</button>
+						<!--<button class="tablinks active" onClick="openAbout(event,'About1')">Contact</button>-->
+					</div>
+					
+					<div id="about-content">
+						<h4>About us</h4>
+						
+						<p>
+							SilverNote is a non-genre specific music label and creative enterprise hub based at North East Scotland College.  From the company structure and the job roles, to the signing, development and distribution of creative products and projects, SilverNote is real-world enterprise, focusing on creative development and, specifically, new music in the North East of Scotland. 
+							SilverNote creates opportunities to work with either the creation or administration and enterprise of creative assets - the two roles which underpin the creative industries as a whole.
+							SilverNote reaches outwards to into the local community to engage and inspire creative professionals and other external organisations as a hub for creative enterprise, and a provider of creative services, products and projects.  In addition, SilverNote disseminates artists work globally - raising the profile of new music and artists and creative enterprise in the North East of Scotland.
+						</p>
+						
+						<div id="about-contact">
+							<h4>Contact us for more info:</h4>
+							<p>silvernote@nescol.ac.uk</p>
+						</div>
+						
+					</div>
+					
+					<div id="mission-content">
+						
+					</div>
+					
+					<div class="arrow" id="down">
+						
+					</div>
+					
+				</div>
+			</section>
+			<section id="artists">
+				<div class="arrow" id="left">
+					
+				</div>
+				<div id="bands">
+					<div class="tab">
+						<button class="tablinks active" onclick="openBand(event, 'Artist1')">Katie Mackie and the Multi-Loves</button>
+						<button class="tablinks" onclick="openBand(event, 'Artist2')">Shannon Feely</button>
+						<button class="tablinks" onclick="openBand(event, 'Artist3')">Jamie and Hannah</button>
+						<button class="tablinks" onclick="openBand(event, 'Artist4')">Josh Byres</button>
+						<button class="tablinks" onclick="openBand(event, 'Artist5')">RedKid</button>
+						<button class="tablinks" onclick="openBand(event, 'Artist6')">Glass Monkey</button>
+					</div>
+					<hr>
+					<div id="Artist1" class="tabcontent active" style="display: block">
+						<div class="row">
+							<div class="left-col">
+								<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
+							</div>
+							<div class="right-col">
+								<h4>Katie Mackie and the Multi-Loves</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+									incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
+									parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
+									vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
+									sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
+									ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
+									congue quisque gestas diam in.
+								</p>
+								<div class="band-social">
+									<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div id="Artist2" class="tabcontent">
+						<div class="row">
+							<div class="left-col">
+								<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
+							</div>
+							<div class="right-col">
+								<h4>Shannon Feely</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+									incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
+									parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
+									vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
+									sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
+									ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
+									congue quisque gestas diam in.
+								</p>
+								<div class="band-social">
+									<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div id="Artist3" class="tabcontent">
+						<div class="row">
+							<div class="left-col">
+								<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
+							</div>
+							<div class="right-col">
+								<h4>Jamie and Hannah</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+									incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
+									parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
+									vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
+									sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
+									ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
+									congue quisque gestas diam in.
+								</p>
+								<div class="band-social">
+									<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div id="Artist4" class="tabcontent">
+						<div class="row">
+							<div class="left-col">
+								<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
+							</div>
+							<div class="right-col">
+								<h4>Josh Byres</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+									incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
+									parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
+									vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
+									sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
+									ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
+									congue quisque gestas diam in.
+								</p>
+								<div class="band-social">
+									<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div id="Artist5" class="tabcontent">
+						<div class="row">
+							<div class="left-col">
+								<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
+							</div>
+							<div class="right-col">
+								<h4>RedKid</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+									incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
+									parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
+									vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
+									sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
+									ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
+									congue quisque gestas diam in.
+								</p>
+								<div class="band-social">
+									<div><a href="https://www.facebook.com/RedKidARoo/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
+									<div><a href="https://www.youtube.com/channel/UC5R7oprAmftBdmRTf99pOzA" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div id="Artist6" class="tabcontent">
+						<div class="row">
+							<div class="left-col">
+								<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
+							</div>
+							<div class="right-col">
+								<h4>Glass Monkey</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+									incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
+									parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
+									vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
+									sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
+									ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
+									congue quisque gestas diam in.
+								</p>
+								<div class="band-social">
+									<div><a href="https://www.facebook.com/GlassMonkeyBand/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
+									<div><a href="https://www.youtube.com/channel/UCL8x_uARr-k1S0_5wGqwyqA" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="event">
+				<div class="event-content">
+					<div class="eventlogo">
+						<img src="img/eventlogo.png" alt="Artist Expo Logo">
+					</div>
+					<div id="infomap">
+						<div class="info">
+							<h3> Doors Opens at 7.30pm <i class="fas fa-info"></i></h3>
+							<h3> Free Admission <i class="fas fa-ticket-alt"></i></h3>
+							<h3> Address <i class="fas fa-map-marker"></i></h3>
+							<p><b><a href="https://www.google.com/maps/place/The+Lemon+Tree" target="_blank">The Lemon Tree <i class="fas fa-external-link-alt"></i></b></a><br>5 W N St,<br>Aberdeen AB24 5AT<br>United Kingdom</p>
+							<h3> Bus (Stop: Shoe Lane) <i class="fas fa-bus"></i></h3>
+							<p>8, 9, 11, 16, 17 ,17A ,18, 18A, 20 ,23 ,25, 727, Platinum 19</p>
+						</div>
+						<div class="map">
+							<div id="map"></div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</section>
-		<section id="about">
-			<div id="about-wrapper">
-				
-				<div class="tab-vertical">
-					<button class="tablinks active" onClick="openAbout(event,'About1')">Who we are</button>
-					<button class="tablinks active" onClick="openAbout(event,'About2')">Our Mission</button>
-					<button class="tablinks active" onClick="openAbout(event,'About1')">The Crew</button>
-					<!--<button class="tablinks active" onClick="openAbout(event,'About1')">Contact</button>-->
-				</div>
-				
-				<div id="about-content">
-					<h4>About us</h4>
-					
-					<p>
-						SilverNote is a non-genre specific music label and creative enterprise hub based at North East Scotland College.  From the company structure and the job roles, to the signing, development and distribution of creative products and projects, SilverNote is real-world enterprise, focusing on creative development and, specifically, new music in the North East of Scotland. 
-						SilverNote creates opportunities to work with either the creation or administration and enterprise of creative assets - the two roles which underpin the creative industries as a whole.
-						SilverNote reaches outwards to into the local community to engage and inspire creative professionals and other external organisations as a hub for creative enterprise, and a provider of creative services, products and projects.  In addition, SilverNote disseminates artists work globally - raising the profile of new music and artists and creative enterprise in the North East of Scotland.
-					</p>
-					
-					<div id="about-contact">
-						<h4>Contact us for more info:</h4>
-						<p>silvernote@nescol.ac.uk</p>
-					</div>
-					
-				</div>
-				
-				<div id="mission-content">
-				
-				</div>
-				
-				<div class="arrow" id="down">
-					
-				</div>
-				
-			</div>
-		</section>
-		<section id="artists">
-			<div class="arrow" id="left">
-					
-			</div>
-			<div id="bands">
-				<div class="tab">
-					<button class="tablinks active" onclick="openBand(event, 'Artist1')">Katie Mackie and the Multi-Loves</button>
-					<button class="tablinks" onclick="openBand(event, 'Artist2')">Shannon Feely</button>
-					<button class="tablinks" onclick="openBand(event, 'Artist3')">Jamie and Hannah</button>
-					<button class="tablinks" onclick="openBand(event, 'Artist4')">Josh Byres</button>
-					<button class="tablinks" onclick="openBand(event, 'Artist5')">RedKid</button>
-					<button class="tablinks" onclick="openBand(event, 'Artist6')">Glass Monkey</button>
-				</div>
-				<hr>
-				<div id="Artist1" class="tabcontent active" style="display: block">
-					<div class="row">
-						<div class="left-col">
-							<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
-						</div>
-						<div class="right-col">
-							<h4>Katie Mackie and the Multi-Loves</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-								incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
-								parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
-								vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
-								sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
-								ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
-								congue quisque gestas diam in.
-							</p>
-							<div class="band-social">
-								<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div id="Artist2" class="tabcontent">
-					<div class="row">
-						<div class="left-col">
-							<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
-						</div>
-						<div class="right-col">
-							<h4>Shannon Feely</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-								incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
-								parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
-								vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
-								sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
-								ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
-								congue quisque gestas diam in.
-							</p>
-							<div class="band-social">
-								<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div id="Artist3" class="tabcontent">
-					<div class="row">
-						<div class="left-col">
-							<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
-						</div>
-						<div class="right-col">
-							<h4>Jamie and Hannah</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-								incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
-								parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
-								vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
-								sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
-								ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
-								congue quisque gestas diam in.
-							</p>
-							<div class="band-social">
-								<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div id="Artist4" class="tabcontent">
-					<div class="row">
-						<div class="left-col">
-							<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
-						</div>
-						<div class="right-col">
-							<h4>Josh Byres</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-								incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
-								parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
-								vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
-								sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
-								ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
-								congue quisque gestas diam in.
-							</p>
-							<div class="band-social">
-								<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div id="Artist5" class="tabcontent">
-					<div class="row">
-						<div class="left-col">
-							<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
-						</div>
-						<div class="right-col">
-							<h4>RedKid</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-								incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
-								parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
-								vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
-								sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
-								ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
-								congue quisque gestas diam in.
-							</p>
-							<div class="band-social">
-								<div><a href="https://www.facebook.com/RedKidARoo/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
-								<div><a href="https://www.youtube.com/channel/UC5R7oprAmftBdmRTf99pOzA" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div id="Artist6" class="tabcontent">
-					<div class="row">
-						<div class="left-col">
-							<img src="img/frank-cordoba-447368.jpg" alt="Band Picture">
-						</div>
-						<div class="right-col">
-							<h4>Glass Monkey</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-								incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
-								parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
-								vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
-								sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
-								ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
-								congue quisque gestas diam in.
-							</p>
-							<div class="band-social">
-								<div><a href="https://www.facebook.com/GlassMonkeyBand/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
-								<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
-								<div><a href="https://www.youtube.com/channel/UCL8x_uARr-k1S0_5wGqwyqA" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="event">
-			<div id="welcome-content">
-            <div>
-                <div class="event-logo">
-                    <img src="img/eventlogo.png" alt="Event Logo">
-                </div>
-            </div>
-        </div>
 		</section>
 	</div>
+	<script src="js/map.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp_I01uuNTMoSJ419BiPB8Xah1Z1_84iE&callback=initMap"></script>
 </body>
 </html>
