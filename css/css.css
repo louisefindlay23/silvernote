@@ -386,3 +386,18 @@ video {
 #about-contact p {
 	text-align: center;
 }
+
+
+/* EVENT PAGE */
+
+.event-logo {
+    max-width: 500px;
+    margin: 4% auto;
+}
+
+.event-logo img {
+    width: 100%;
+    margin: 0 0 30px 0;
+    -webkit-filter: drop-shadow(#000 0px 0px 3px);
+    filter: drop-shadow(#000 0px 0px 3px);
+}
