@@ -323,8 +323,7 @@ video {
 	background-color: rgba(0, 0, 0, 0);
 	overflow: hidden;
 	float: left;
-	margin: 10% 0 0 3%;
-	border-left: medium white;
+	margin: 12% 0 0 3%;
 }
 
 .tab-vertical button {
