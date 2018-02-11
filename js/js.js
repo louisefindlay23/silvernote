@@ -10,6 +10,8 @@ $(document).ready(function(){
 		
 		$("#artists").animate({top:"100%"});
 		
+		$("#event").animate({bottom:"100%"});
+		
 		$("#menu").removeClass("change");
 		
 		$(".overlay").removeClass("over");
@@ -23,6 +25,8 @@ $(document).ready(function(){
 		$("#home").animate({left:'0'});
 		
 		$("#artists").animate({top:"100%"});
+		
+		$("#event").animate({bottom:"100%"});
 		
 		$("#menu").removeClass("change");
 		
@@ -52,9 +56,27 @@ $(document).ready(function(){
 		
 		$("#about").animate({left:"0"});
 		
+		$("#event").animate({bottom:"100%"});
+		
 		$("#menu").removeClass("change");
 		
 		$(".overlay").removeClass("over");
+	});
+	
+	$("#ev").click(function(){
+		
+		$("#event").animate({bottom:"0"});
+		
+		$("#artists").animate({top:"100%"});
+		
+		$("#home").animate({left:"0"});
+		
+		$("#about").animate({left:"0"});
+		
+		$("#menu").removeClass("change");
+		
+		$(".overlay").removeClass("over");
+		
 	});
 	
 });

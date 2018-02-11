@@ -160,12 +160,14 @@ video {
 
 
 #event{
-	position: relative;
+	position: fixed;
 	height:100vh;
-	width:50%;
+	width:100%;
 	overflow:auto;
 	background:url(../img/sn4.jpg) center;
 	background-size:cover;
+	bottom:100%;
+	float:left;
 }
 
 
