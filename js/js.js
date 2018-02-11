@@ -71,13 +71,13 @@ $(document).ready(function(){
 		
 	});
 	
-	$("#up").click(function(){
+	$("#down").click(function(){
 		
 		$("#artists").animate({top:"0"});
 		
 	});
 	
-	$("#right").click(function(){
+	$("#left").click(function(){
 		
 		$("#event").animate({right:"0"});
 		

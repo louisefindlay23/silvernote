@@ -313,13 +313,13 @@ video {
 	transition: 0.5s all;
 }
 
-#right{
+#left{
 	position: relative;
 	width:4%;
 	height:auto;
 	overflow:auto;
 	padding:0 0 4% 0;
-	background: url(../img/arrowr.png) center;
+	background: url(../img/arrowl.png) center;
 	background-size:cover;
 	transition:ease 0.5s;
 	cursor: pointer;
@@ -402,13 +402,13 @@ video {
 	text-align: center;
 }
 
-#up{
+#down{
 	position: relative;
 	width:4%;
 	height:auto;
 	overflow:auto;
 	padding:0 0 4% 0;
-	background: url(../img/arrowu.png) center;
+	background: url(../img/arrowd.png) center;
 	background-size:cover;
 	top: 85%;
 	left:33%;
