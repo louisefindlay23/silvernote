@@ -294,3 +294,78 @@ body{
 	opacity: 0.5;
 	transition: 0.5s all;
 }
+
+/* About */
+
+.tab-vertical{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0);
+	overflow: hidden;
+	float: left;
+	margin: 10% 0 0 3%;
+	border-left: medium white;
+}
+
+.tab-vertical button {
+	font-family: 'Open Sans', sans-serif;
+	background-color: inherit;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 500;
+	float: left;
+	border: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	margin: 20px;
+	transition: 0.3s;
+	color: rgb(145, 145, 145);
+	transition: 1s all;
+}
+
+.tab-vertical button:focus {
+	outline: 0;
+}
+
+.tab-vertical button:hover {
+	color: rgb(90, 90, 90);
+	border: none;
+}
+
+.tab-vertical button.active {
+	color: rgb(255, 255, 255);
+	border: none;
+}
+
+#about-content {
+	width: 60%;
+	float: right;
+	margin: 13% 20% 0 0;
+}
+
+#about-content h4 {
+	text-align: center;
+	color: #fff;
+}
+
+#about-content p {
+	text-align: justify;
+	color: #fff;
+}
+
+/* I needed a bit darker bcg for the about page*/
+#about-wrapper {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.60);
+}
+
+#about-contact{
+	padding-top: 5%;
+}
+
+#about-contact p {
+	text-align: center;
+}

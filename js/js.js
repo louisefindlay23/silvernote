@@ -77,3 +77,6 @@ function openBand(evt, bandName) {
     document.getElementById(bandName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+// TABS - About
+
