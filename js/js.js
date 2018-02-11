@@ -4,13 +4,11 @@ $(document).ready(function(){
 	
 	$("#hm").click(function(){
 		
-		$("#home").animate({left:'0'});
-		
-		$("#about").animate({left:'0'});
+		$("#about").animate({left:'100%'});
 		
 		$("#artists").animate({top:"100%"});
 		
-		$("#event").animate({bottom:"100%"});
+		$("#event").animate({right:"100%"});
 		
 		$("#menu").removeClass("change");
 		
@@ -20,13 +18,11 @@ $(document).ready(function(){
 	
 	$("#ab").click(function(){
 		
-		$("#about").animate({left:'-50%'});
-		
-		$("#home").animate({left:'0'});
+		$("#about").animate({left:'0'});
 		
 		$("#artists").animate({top:"100%"});
 		
-		$("#event").animate({bottom:"100%"});
+		$("#event").animate({right:"100%"});
 		
 		$("#menu").removeClass("change");
 		
@@ -52,11 +48,9 @@ $(document).ready(function(){
 		
 		$("#artists").animate({top:"0"});
 		
-		$("#home").animate({left:'0'});
+		$("#about").animate({left:"100%"});
 		
-		$("#about").animate({left:"0"});
-		
-		$("#event").animate({bottom:"100%"});
+		$("#event").animate({right:"100%"});
 		
 		$("#menu").removeClass("change");
 		
@@ -65,13 +59,11 @@ $(document).ready(function(){
 	
 	$("#ev").click(function(){
 		
-		$("#event").animate({bottom:"0"});
+		$("#event").animate({right:"0"});
 		
 		$("#artists").animate({top:"100%"});
 		
-		$("#home").animate({left:"0"});
-		
-		$("#about").animate({left:"0"});
+		$("#about").animate({left:"100%"});
 		
 		$("#menu").removeClass("change");
 		

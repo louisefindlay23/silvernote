@@ -11,7 +11,7 @@ body{
 
 #wrapper{
 	position:fixed;
-	width:200%;
+	width:100%;
 	height:auto;
 	overflow:auto;
 }
@@ -81,7 +81,7 @@ body{
 	position: relative;
 	float:left;
 	height:100vh;
-	width:50%;
+	width:100%;
 	overflow:auto;
 	background-size:cover;
 }
@@ -138,13 +138,13 @@ video {
 }
 
 #about{
-	position: relative;
+	position: fixed;
 	height:100vh;
-	width:50%;
+	width:100%;
 	overflow:auto;
 	background:url(../img/sn3.jpg) center;
 	background-size:cover;
-	float:left;
+	left:100%;
 }
 
 #artists{
@@ -155,7 +155,6 @@ video {
 	background:url(../img/sn5.jpg) center;	
 	background-size:cover;
 	top:100%;
-	float:left;
 }
 
 
@@ -166,8 +165,7 @@ video {
 	overflow:auto;
 	background:url(../img/sn4.jpg) center;
 	background-size:cover;
-	bottom:100%;
-	float:left;
+	right:100%;
 }
 
 
