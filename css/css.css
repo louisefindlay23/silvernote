@@ -270,10 +270,12 @@ video {
 	width: 58%;
 	float: left;
 	padding: 0 1%;
+	text-align: center;
 }
 
 .left-col img {
-	width: 100%;
+	width: auto;
+	max-height: 330px;
 }
 
 .right-col {
