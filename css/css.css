@@ -6,7 +6,7 @@ body{
 	height:auto;
 	padding:0;
 	overflow:auto;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'Open Sans', sans-serif;;
 }
 
 #wrapper{
@@ -48,13 +48,17 @@ body{
 }
 
 .overlay{
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	flex-direction: column;
 	position:fixed;
 	z-index:10;
 	height:100vh;
 	width:100%;
 	bottom:100%;
 	transition: ease 0.5s;
-	background:rgba(0,0,0,0.77);
+	background:rgba(0,0,0,0.85);
 }
 
 .over{
@@ -116,7 +120,7 @@ video {
 
 #logo {
 	width: 60%;
-	max-width: 1000px;
+	max-width: 1200px;
 }
 
 #logo img {
@@ -127,11 +131,10 @@ video {
 	width:10%;
 	overflow:auto;
 	margin: 0 auto;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.25);
 	border:solid 2px #fff;
 	border-radius: 10px;
 	color: #fff;
-	z-index: 1;
 	cursor: pointer;
 	transition: all 0.25s; 
 }
@@ -153,7 +156,7 @@ video {
 	height:100vh;
 	width:100%;
 	overflow:auto;
-	background:url(../img/sn3.jpg) center;
+	background: url(../img/sn3t.jpg) center;
 	background-size:cover;
 	left:100%;
 }
@@ -342,92 +345,49 @@ video {
 	float:left;
 }
 
-/* About */
+/* A B O U T */
 
-.tab-vertical{
+#about-container {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 	justify-content: center;
-	background-color: rgba(0, 0, 0, 0);
-	overflow: hidden;
-	float: left;
-	margin: 12% 0 0 3%;
-}
-
-.tab-vertical button {
-	font-family: 'Open Sans', sans-serif;
-	background-color: inherit;
-	text-transform: uppercase;
-	font-size: 1em;
-	font-weight: 500;
-	float: left;
-	border: none;
-	cursor: pointer;
-	padding: 14px 16px;
-	margin: 20px;
-	transition: 0.3s;
-	color: rgb(145, 145, 145);
-	transition: 1s all;
-}
-
-.tab-vertical button:focus {
-	outline: 0;
-}
-
-.tab-vertical button:hover {
-	color: rgb(90, 90, 90);
-	border: none;
-}
-
-.tab-vertical button.active {
-	color: rgb(255, 255, 255);
-	border: none;
-}
-
-#about-content {
-	width: 60%;
-	float: right;
-	margin: 13% 20% 0 0;
-}
-
-#about-content h4 {
-	text-align: center;
-	color: #fff;
-}
-
-#about-content p {
-	text-align: justify;
-	color: #fff;
-}
-
-/* I needed a bit darker bcg for the about page*/
-#about-wrapper {
-	width: 100%;
+	align-items: center;
+	width: 70%;
 	height: 100%;
-	background: rgba(0,0,0,0.60);
+	margin: 0 auto;
 }
 
-#about-contact{
-	padding-top: 5%;
+#about-container p, h3, a {
+	color: #fff;
 }
 
-#about-contact p {
+#about-container h3, a {
+	color: #fff;
 	text-align: center;
 }
+
+#about-container a {
+	text-decoration: none;
+}
+
+#about-container p {
+	text-align: justify;
+	line-height: 1.6em;
+}
+
 
 #down{
-	position: relative;
+	position: absolute;
 	width:4%;
 	height:auto;
 	overflow:auto;
 	padding:0 0 4% 0;
 	background: url(../img/arrowd.png) center;
 	background-size:cover;
-	top: 85%;
-	left:33%;
 	transition:ease 0.5s;
 	cursor: pointer;
+	bottom: 10%;
+	left: 47%;
 }
 
 .arrow:hover{
