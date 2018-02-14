@@ -86,6 +86,15 @@ body{
 	background-size:cover;
 }
 
+.home-container {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
 video { 
 	position: fixed;
 	top: 50%;
@@ -105,24 +114,26 @@ video {
     filter: grayscale(100%);
 }
 
-#logo{
-	height:50vh;
-	background: url(../img/snlogo.png) center;
-	background-size:cover;
-	width:70%;
-	margin:auto;
-	position: relative;
-	top:10%;
+#logo {
+	width: 60%;
+	max-width: 1000px;
+}
+
+#logo img {
+	width: 100%;
 }
 
 #start{
 	width:10%;
 	overflow:auto;
-	margin:5% auto;
-	background-color: rgba(255,255,255,0.5);
-	border:solid 2px #000000;
-	z-index:10;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.5);
+	border:solid 2px #fff;
+	border-radius: 10px;
+	color: #fff;
+	z-index: 1;
 	cursor: pointer;
+	transition: all 0.25s; 
 }
 
 .startp{
@@ -133,8 +144,8 @@ video {
 }
 
 #start:hover{
-	background:rgba(0,0,0,0.5);
-	color:#ffffff;
+	background:rgba(255,255,255,0.75);
+	color:rgb(39, 39, 39);
 }
 
 #about{

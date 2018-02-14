@@ -104,5 +104,3 @@ function openBand(evt, bandName) {
     evt.currentTarget.className += " active";
 }
 
-// TABS - About
-
