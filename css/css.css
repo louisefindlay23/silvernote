@@ -459,3 +459,16 @@ video {
     padding: 0 1%;
     float: left;
 }
+
+.song {
+	width: 50%;
+	height: auto;
+	overflow: auto;
+	padding-left: 25%;
+}
+
+iframe {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
