@@ -465,6 +465,6 @@ video {
 	overflow: hidden;
 }
 
-.spotify {
-	overflow: hidden;
+#playlist {
+  overflow: hidden;
 }
