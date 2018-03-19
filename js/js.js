@@ -42,6 +42,8 @@ $(document).ready(function(){
 		
 		$("#about").animate({left:'0'});
 		
+		$("#site-id").show();
+		
 	});
 	
 	$("#art").click(function(){
