@@ -2,23 +2,7 @@
 $(document).ready(function(){
 	"use strict";
 	
-	$("#site-id").click(function(){
-		
-		$("#about").animate({left:'100%'});
-		
-		$("#artists").animate({top:"100%"});
-		
-		$("#event").animate({right:"100%"});
-		
-		$("#menu").removeClass("change");
-		
-		$(".overlay").removeClass("over");
-		
-		$("#site-id").fadeOut();
-		
-	});
-	
-	$("#hm").click(function(){
+	$("#site-id, #hm").click(function(){
 		
 		$("#about").animate({left:'100%'});
 		
