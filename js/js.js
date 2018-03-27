@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	"use strict";
 	
-	$("#hm").click(function(){
+	$("#site-id, #hm").click(function(){
 		
 		$("#about").animate({left:'100%'});
 		
@@ -13,6 +13,8 @@ $(document).ready(function(){
 		$("#menu").removeClass("change");
 		
 		$(".overlay").removeClass("over");
+		
+		$("#site-id").fadeOut();
 		
 	});
 	
@@ -41,6 +43,8 @@ $(document).ready(function(){
 	$("#start").click(function(){
 		
 		$("#about").animate({left:'0'});
+		
+		$("#site-id").fadeIn();
 		
 	});
 	
