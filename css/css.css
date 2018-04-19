@@ -468,3 +468,11 @@ video {
 #playlist {
   overflow: hidden;
 }
+
+.desktop {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
