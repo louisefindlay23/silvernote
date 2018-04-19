@@ -121,8 +121,8 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-	margin: 10px 0;
+	justify-content: space-between;
+	margin: 0 5%;
 	padding-top: 2.5%;
 	padding-bottom: 2.5%;
 }
@@ -143,6 +143,20 @@ body{
 
 .background img {
 	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.arrow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 5%;
+}
+
+.arrow img{
+	width: 15%;
 	height: auto;
 	overflow: auto;
 }
