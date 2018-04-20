@@ -83,6 +83,16 @@ $(document).ready(function(){
 		
 	});
 	
+	// M O B I L E
+
+$("#mobaboutarrow").click(function(){
+		
+		$("#about").hide();
+		
+		$("#artists").show();
+		
+	});
+	
 });
 
 // T A B S
@@ -103,4 +113,3 @@ function openBand(evt, bandName) {
     document.getElementById(bandName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
