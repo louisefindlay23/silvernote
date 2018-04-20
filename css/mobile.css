@@ -13,9 +13,13 @@
 	display: block;
 }
 
-.mobile p {
+p {
 	padding-left: 5%;
 	padding-right: 5%;
+}
+
+h4 {
+	text-align: center;
 }
 
 body{
@@ -166,4 +170,8 @@ body{
 	width: 15%;
 	height: auto;
 	overflow: auto;
+}
+
+#Artist2, #Artist3, #Artist4, #Artist5, #Artist6 {
+	display: none;
 }

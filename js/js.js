@@ -90,6 +90,8 @@ $("#mobaboutarrow").click(function(){
 		$("#about").hide();
 		
 		$("#artists").show();
+	
+		$(".tab").hide();
 		
 	});
 	
