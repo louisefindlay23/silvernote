@@ -4,6 +4,8 @@ $(document).ready(function(){
 	
 	$(".small-logo").hide();
 	
+	$(".dropdownmenu").hide();
+	
 	$("#hm").click(function(){
 		
 		$("#about").animate({left:'100%'});
@@ -111,6 +113,8 @@ $("#mobaboutarrow").click(function(){
 		$(".small-logo").show();
 	
 		$(".tab").hide();
+	
+		$(".menu").show();
 		
 	});
 	
@@ -119,6 +123,14 @@ $(".small-logo").click(function(){
 		$("#about").show();
 		
 		$("#artists").hide();
+	
+		$(".menu").hide();
+		
+	});
+	
+$(".dropdown").click(function(){
+		
+		$(".dropdownmenu").toggle();
 		
 	});
 	
