@@ -16,6 +16,20 @@ $(document).ready(function(){
 		
 	});
 	
+	$(".small-logo").click(function(){
+		
+		$("#about").animate({left:'100%'});
+		
+		$("#artists").animate({top:"100%"});
+		
+		$("#event").animate({right:"100%"});
+		
+		$(".menu").removeClass("change");
+		
+		$(".overlay").removeClass("over");
+		
+	});
+	
 	$("#ab").click(function(){
 		
 		$("#about").animate({left:'0'});

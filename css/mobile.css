@@ -104,12 +104,12 @@ body{
 	color:#ffffff;
 }
 
-#logo {
+.bannerlogo {
 	width: 100%;
 	max-width: 768px;
 }
 
-#logo img {
+.bannerlogo img {
 	width: 100%;
 	padding-left: 12.5%;
 	padding-top: 5%;
