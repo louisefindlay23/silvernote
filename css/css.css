@@ -128,15 +128,16 @@ video {
 }
 
 .small-logo {
-	width: 8%;
-	height: 100%;
-	padding-top: 19%;
+	cursor: pointer;
+	position: fixed;
+	z-index: 13;
+	right: 92%;
+	top: 5%;
 }
 
 .small-logo img {
-	width: 100%;
-	height: auto;
-	overflow: auto;
+	width: 69px;
+	height: 42px;
 }
 
 #start{

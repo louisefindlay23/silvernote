@@ -2,6 +2,8 @@
 $(document).ready(function(){
 	"use strict";
 	
+	$(".small-logo").hide();
+	
 	$("#hm").click(function(){
 		
 		$("#about").animate({left:'100%'});
@@ -55,6 +57,7 @@ $(document).ready(function(){
 	$("#start").click(function(){
 		
 		$("#about").animate({left:'0'});
+		$(".small-logo").show();
 		
 	});
 	
