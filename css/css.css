@@ -16,7 +16,7 @@ body{
 	overflow:auto;
 }
 
-#menu{
+.menu{
 	display: inline-block;
 	cursor: pointer;
 	position: fixed;
