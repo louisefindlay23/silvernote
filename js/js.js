@@ -108,6 +108,8 @@ $("#mobaboutarrow").click(function(){
 		
 		$("#artists").show();
 	
+		$(".small-logo").show();
+	
 		$(".tab").hide();
 		
 	});
