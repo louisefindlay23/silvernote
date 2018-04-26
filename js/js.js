@@ -134,6 +134,18 @@ $(".dropdown").click(function(){
 		
 	});
 	
+$(".shannon").click(function(){
+		
+		$("#Artist2").show();
+		$("#Artist1").hide();
+		$("#Artist3").hide();
+		$("#Artist4").hide();
+		$("#Artist5").hide();
+		$("#Artist6").hide();
+		$(".dropdownmenu").hide();
+		
+	});
+	
 });
 
 // T A B S
