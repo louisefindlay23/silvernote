@@ -134,6 +134,18 @@ $(".dropdown").click(function(){
 		
 	});
 	
+$(".katie").click(function(){
+		
+		$("#Artist1").show();
+		$("#Artist2").hide();
+		$("#Artist3").hide();
+		$("#Artist4").hide();
+		$("#Artist5").hide();
+		$("#Artist6").hide();
+		$(".dropdownmenu").hide();
+		
+	});
+	
 $(".shannon").click(function(){
 		
 		$("#Artist2").show();
@@ -142,6 +154,54 @@ $(".shannon").click(function(){
 		$("#Artist4").hide();
 		$("#Artist5").hide();
 		$("#Artist6").hide();
+		$(".dropdownmenu").hide();
+		
+	});
+	
+$(".jamie").click(function(){
+		
+		$("#Artist3").show();
+		$("#Artist1").hide();
+		$("#Artist2").hide();
+		$("#Artist4").hide();
+		$("#Artist5").hide();
+		$("#Artist6").hide();
+		$(".dropdownmenu").hide();
+		
+	});
+	
+$(".josh").click(function(){
+		
+		$("#Artist4").show();
+		$("#Artist1").hide();
+		$("#Artist2").hide();
+		$("#Artist3").hide();
+		$("#Artist5").hide();
+		$("#Artist6").hide();
+		$(".dropdownmenu").hide();
+		
+	});
+	
+$(".red").click(function(){
+		
+		$("#Artist5").show();
+		$("#Artist1").hide();
+		$("#Artist2").hide();
+		$("#Artist3").hide();
+		$("#Artist4").hide();
+		$("#Artist6").hide();
+		$(".dropdownmenu").hide();
+		
+	});
+	
+$(".glass").click(function(){
+		
+		$("#Artist6").show();
+		$("#Artist1").hide();
+		$("#Artist2").hide();
+		$("#Artist3").hide();
+		$("#Artist4").hide();
+		$("#Artist5").hide();
 		$(".dropdownmenu").hide();
 		
 	});
