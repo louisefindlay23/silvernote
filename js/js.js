@@ -206,6 +206,14 @@ $(".glass").click(function(){
 		
 	});
 	
+$(".mobartistarrow").click(function(){
+		
+		$("#artists").hide();
+		
+		$("#event").show();
+		
+	});
+	
 });
 
 // T A B S

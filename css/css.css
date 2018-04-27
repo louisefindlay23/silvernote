@@ -427,7 +427,7 @@ video {
 	width: 100%;
 }
 
-#infomap {
+.infomap {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
