@@ -92,11 +92,17 @@ body{
 	list-style-type: none; 
 }
 
+ul#nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .list{
-	width:100%;
+	width: 100%;
 	text-align: center;
 	margin: 3% auto;
-	font-size:2vw;
+	font-size: 50pt;
 }
 
 .list a{
