@@ -130,7 +130,7 @@ $(".small-logo").click(function(){
 		
 	});
 	
-$(".dropdown").click(function(){
+$(".fa-sort-down").click(function(){
 		
 		$(".dropdownmenu").toggle();
 		

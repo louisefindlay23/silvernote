@@ -223,13 +223,6 @@ hr {
 	overflow: auto;
 }
 
-.dropdown {
-	position: absolute;
-	color: #fff;
-	left: 66%;
-	top: 13%;
-}
-
 .dropdownmenu {
 	display: flex;
 	flex-direction: column;
