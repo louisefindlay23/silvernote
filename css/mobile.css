@@ -275,6 +275,10 @@ hr {
 	padding-top: 5%;
 }
 
+.tab {
+	display: none;
+}
+
 .info {
 	display: flex;
 	flex-direction: column;
@@ -285,6 +289,6 @@ hr {
 	overflow: auto;
 }
 
-#padding {
-	padding-left: 5%;
+.padding {
+	padding-left: 10%;
 }

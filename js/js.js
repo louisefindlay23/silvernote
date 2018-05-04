@@ -121,10 +121,12 @@ $("#mobaboutarrow").click(function(){
 $(".small-logo").click(function(){
 		
 		$("#about").show();
+	
+		$(".menu").hide();
 		
 		$("#artists").hide();
 	
-		$(".menu").hide();
+		$("#event").hide();
 		
 	});
 	
@@ -212,6 +214,44 @@ $(".mobartistarrow").click(function(){
 		
 		$("#event").show();
 		
+	});
+	
+$("#hm").click(function(){
+	
+		$("#artists").hide();
+		
+		$("#event").hide();
+	
+		$("#about").show();
+	
+	});
+	
+$("#art").click(function(){
+	
+		$("#about").hide();
+	
+		$("#event").hide();
+		
+		$("#artists").show();
+	
+		$(".small-logo").show();
+	
+		$(".menu").show();
+	
+	});
+	
+$("#ev").click(function(){
+	
+		$("#about").hide();
+	
+		$("#event").show();
+		
+		$("#artists").hide();
+	
+		$(".small-logo").show();
+	
+		$(".menu").show();
+	
 	});
 	
 });
