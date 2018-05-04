@@ -48,11 +48,29 @@ $(document).ready(function(){
 		
 	});
 	
-	$(".menu").click(function(){
+		$(".desktop.menu").click(function(){
+			
+			$(this).toggleClass("change");
 		
-		$(this).toggleClass("change");
+			$(".overlay").toggleClass("over");
+			
+		});
+	
+	$(".small-logo .menu").click(function(){
 		
-		$(".overlay").toggleClass("over");
+		$("nav .menu").addClass("change");
+		
+		$(".small-logo .menu").hide();
+		
+		$(".overlay").addClass("over");
+		
+	});
+	
+	$(".change").click(function(){
+		
+		$(".small-logo .menu").show();
+		
+		$(".overlay").removeClass("over");
 		
 	});
 	
@@ -60,7 +78,7 @@ $(document).ready(function(){
 		
 		$("#about").animate({left:'0'});
 		$(".small-logo").show();
-		$(".menu").show();
+		$(".menu desktop").show();
 		
 	});
 	
