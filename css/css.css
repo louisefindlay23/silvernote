@@ -1,93 +1,93 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	margin:0;
-	height:auto;
-	padding:0;
-	overflow:auto;
+body {
+	margin: 0;
+	height: auto;
+	padding: 0;
+	overflow: auto;
 	font-family: 'Open Sans', sans-serif;;
 }
 
-#wrapper{
-	position:fixed;
-	width:100%;
-	height:auto;
-	overflow:auto;
+#wrapper {
+	position: fixed;
+	width: 100%;
+	height: auto;
+	overflow: auto;
 }
 
-.menu{
+.menu {
 	display: inline-block;
 	cursor: pointer;
 	position: fixed;
 	z-index: 12;
-	left:95%;
-	top:5%;
+	left: 95%;
+	top: 5%;
 }
 
-.bar1, .bar2, .bar3{
-	width:30px;
-	height:5px;
+.bar1, .bar2, .bar3 {
+	width: 30px;
+	height: 5px;
 	background-color: #ffffff;
-	margin:6px;
+	margin: 6px;
 	transition: ease 0.5s;
 }
 
-.change .bar1{
+.change .bar1 {
 	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
 	transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.change .bar2{
+.change .bar2 {
 	opacity: 0;
 }
 
-.change .bar3{
+.change .bar3 {
 	-webkit-transform: rotate(45deg) translate(-8px, -8px);
 	transform: rotate(45deg) translate(-8px, -8px);
 }
 
-.overlay{
+.overlay {
 	display: flex;
 	justify-content: flex-start;
 	align-content: center;
 	flex-direction: column;
-	position:fixed;
-	z-index:10;
-	height:100vh;
-	width:100%;
-	bottom:100%;
+	position: fixed;
+	z-index: 10;
+	height: 100vh;
+	width: 100%;
+	bottom: 100%;
 	transition: ease 0.5s;
-	background:rgba(0,0,0,0.85);
+	background: rgba(0,0,0,0.85);
 }
 
-.over{
+.over {
 	bottom:0;
 }
 
-#nav{
+#nav {
 	list-style-type: none; 
 }
 
-.list{
-	width:100%;
+.list {
+	width: 100%;
 	text-align: center;
 	margin: 3% auto;
-	font-size:2vw;
+	font-size: 2vw;
 }
 
-.list a{
+.list a {
 	text-decoration: none;
 	color:#ffffff;
 }
 
-#home{
+#home {
 	position: relative;
-	float:left;
-	height:100vh;
-	width:100%;
-	overflow:auto;
-	background-size:cover;
+	float: left;
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+	background-size: cover;
 }
 
 .home-container {
@@ -141,58 +141,58 @@ video {
 }
 
 #start{
-	width:10%;
-	overflow:auto;
+	width: 10%;
+	overflow: auto;
 	margin: 0 auto;
 	background-color: rgba(0,0,0,0.25);
-	border:solid 2px #fff;
+	border: solid 2px #fff;
 	border-radius: 10px;
 	color: #fff;
 	cursor: pointer;
 	transition: all 0.25s; 
 }
 
-.startp{
-	display:block;
-	width:100%;
-	font-size:1vw;
+.startp {
+	display: block;
+	width: 100%;
+	font-size: 1vw;
 	text-align: center;
 }
 
-#start:hover{
-	background:rgba(255,255,255,0.75);
-	color:rgb(39, 39, 39);
+#start:hover {
+	background: rgba(255,255,255,0.75);
+	color: rgb(39, 39, 39);
 }
 
-#about{
+#about {
 	position: fixed;
-	height:100vh;
-	width:100%;
-	overflow:auto;
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
 	background: url(../img/sn3t.jpg) center;
-	background-size:cover;
-	left:100%;
+	background-size: cover;
+	left: 100%;
 }
 
-#artists{
+#artists {
 	position: fixed;
-	height:100vh;
-	width:100%;
-	overflow:auto;
-	background:url(../img/sn5.jpg) center;	
-	background-size:cover;
-	top:100%;
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+	background: url(../img/sn5.jpg) center;	
+	background-size: cover;
+	top: 100%;
 }
 
 
-#event{
+#event {
 	position: fixed;
-	height:100vh;
-	width:100%;
-	overflow:auto;
-	background:url(../img/sn4.jpg) center;
-	background-size:cover;
-	right:100%;
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+	background :url(../img/sn4.jpg) center;
+	background-size: cover;
+	right: 100%;
 }
 
 
@@ -345,17 +345,17 @@ video {
 
 #left{
 	position: absolute;
-	width:4%;
-	height:auto;
-	overflow:auto;
-	padding:0 0 4% 0;
+	width: 4%;
+	height: auto;
+	overflow: auto;
+	padding: 0 0 4% 0;
 	background: url(../img/arrowl.png) center;
-	background-size:cover;
-	transition:ease 0.5s;
+	background-size: cover;
+	transition: ease 0.5s;
 	cursor: pointer;
-	top:50%;
-	left:3%;
-	float:left;
+	top: 50%;
+	left: 3%;
+	float: left;
 }
 
 /* A B O U T */
@@ -391,20 +391,20 @@ video {
 
 #down{
 	position: absolute;
-	width:4%;
-	height:auto;
-	overflow:auto;
-	padding:0 0 4% 0;
+	width: 4%;
+	height: auto;
+	overflow: auto;
+	padding: 0 0 4% 0;
 	background: url(../img/arrowd.png) center;
-	background-size:cover;
-	transition:ease 0.5s;
+	background-size: cover;
+	transition: ease 0.5s;
 	cursor: pointer;
 	bottom: 10%;
 	left: 47%;
 }
 
 .arrow:hover{
-	opacity:0.6
+	opacity: 0.6;
 }
 
 /* EVENT PAGE */
