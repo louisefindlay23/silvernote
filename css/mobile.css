@@ -51,10 +51,9 @@ body{
 .menu{
 	display: none;
 	cursor: pointer;
-	position: fixed;
 	z-index: 12;
-	left:85%;
-	top:3.5%;
+	float: right;
+	padding-right: 5%;
 }
 
 .bar1, .bar2, .bar3{
@@ -211,16 +210,17 @@ hr {
 }
 
 .small-logo {
-	width: 15%;
-	height: auto;
-	overflow: auto;
-	padding-left: 5%;
-}
-
-.small-logo img{
 	width: 100%;
 	height: auto;
 	overflow: auto;
+}
+
+.small-logo img{
+	width: 15%;
+	height: auto;
+	overflow: auto;
+	float: left;
+	padding-left: 5%;
 }
 
 .dropdownmenu {

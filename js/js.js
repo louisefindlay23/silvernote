@@ -20,7 +20,7 @@ $(document).ready(function(){
 		
 	});
 	
-	$(".small-logo").click(function(){
+	$(".small-logo img").click(function(){
 		
 		$("#about").animate({left:'100%'});
 		
