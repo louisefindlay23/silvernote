@@ -60,6 +60,7 @@ $(document).ready(function(){
 		
 		$("#about").animate({left:'0'});
 		$(".small-logo").show();
+		$(".menu").show();
 		
 	});
 	
@@ -118,7 +119,7 @@ $("#mobaboutarrow").click(function(){
 		
 	});
 	
-$(".small-logo").click(function(){
+$(".small-logo img").click(function(){
 		
 		$("#about").show();
 	
