@@ -6,7 +6,7 @@ body {
 	height: auto;
 	padding: 0;
 	overflow: auto;
-	font-family: 'Open Sans', sans-serif;;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper {
@@ -494,3 +494,255 @@ video {
 .mobile {
 	display: none;
 }
+
+/* M O B I L E */
+
+@media screen and (max-width: 480px) {
+
+#home, #artists, #event, video {
+	display: none;
+}
+
+.desktop {
+	display: none !important;
+}
+
+.mobile {
+	display: block;
+}
+
+p {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+h3 {
+	font-size: 20pt;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 0.33em;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+body {
+	color: #fff;
+	background: #404040;
+}
+
+#wrapper {
+	position: static;
+}
+
+.menu {
+	display: none;
+	float: right;
+	padding-right: 5%;
+}
+
+nav .menu {
+	padding-left: 85%;
+}
+
+.bar1, .bar2, .bar3 {
+	width: 80px;
+	height: 15px;
+	margin: 18px;
+}
+
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-36px, 36px);
+	transform: rotate(-45deg) translate(-36px, 36px);
+}
+
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+}
+
+ul#nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.list {
+	font-size: 50pt;
+}
+
+.bannerlogo {
+	width: 100%;
+	max-width: 768px;
+}
+
+.bannerlogo img {
+	width: 100%;
+	padding-top: 5%;
+}
+
+#about {
+	position: static;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	left: 100%;
+}
+
+#artists {
+	position: static;
+	left: 100%;
+}
+
+.band-social {
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	padding-left: 5%;
+}
+
+#one {
+	justify-content: center;
+}
+
+#two {
+	justify-content: space-around;
+}
+
+.band-social img {
+	width: 70%;
+	height: auto;
+	overflow: auto;
+	margin: 5px;
+}
+
+.background {
+	width: 100vw;
+	height: 10%;
+	overflow: auto;
+	padding-bottom: 2%;
+}
+
+.background img {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.arrow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 5%;
+}
+
+.arrow img {
+	width: 20%;
+	height: 5%;
+	overflow: auto;
+}
+
+#left {
+	display: none;
+}
+
+#Artist2, #Artist3, #Artist4, #Artist5, #Artist6 {
+	display: none;
+}
+
+hr {
+	display: none;
+}
+
+.left-col img, .left-col, .right-col {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.left-col {
+	padding: 0;
+}
+
+.small-logo {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.small-logo img{
+	width: 15%;
+	height: auto;
+	overflow: auto;
+	float: left;
+	padding-left: 5%;
+}
+
+.dropdownmenu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding-bottom: 5%;
+}
+
+.dropdownmenu p {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdowncontent {
+    display: flex;
+    position: absolute;
+    width: 100%;
+	height: auto;
+    border: 1px solid #fff;
+	z-index: 1;
+}
+
+.eventlogo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 5%;
+}
+
+.eventlogo img {
+	width: 60%;
+}
+
+#eventsn {
+	padding-top: 5%;
+}
+
+.tab {
+	display: none;
+}
+	
+.tabcontent {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.padding {
+	padding-left: 10%;
+}
+	}
