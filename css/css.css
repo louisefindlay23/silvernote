@@ -717,14 +717,17 @@ hr {
 }
 
 .eventlogo {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 5%;
+	width: 80%;
+	height: auto;
+	overflow: auto;
+	padding: 25% 0 0 10%;
 }
 
 .eventlogo img {
-	width: 60%;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding: 0;
 }
 
 #eventsn {
@@ -741,8 +744,17 @@ hr {
 	overflow: auto;
 	padding-bottom: 0;
 }
+	
+	.map {
+		width: 100%
+	}
+	
+	.infomap {
+		width: 100%;
+	}
 
 .info {
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

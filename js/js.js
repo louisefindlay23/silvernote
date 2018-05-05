@@ -118,6 +118,8 @@ $("#mobaboutarrow").click(function(){
 		$(".tab").hide();
 	
 		$(".menu").show();
+	
+		$("#event").animate({right:"0"});
 		
 	});
 	
@@ -214,7 +216,7 @@ $(".glass").click(function(){
 $(".mobartistarrow").click(function(){
 		
 		$("#artists").hide();
-		
+	
 		$("#event").show();
 		
 	});
