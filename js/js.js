@@ -14,7 +14,7 @@ $(document).ready(function(){
 		
 		$("#event").animate({right:"100%"});
 		
-		$(".menu").removeClass("change");
+		$(".menu").removeClass("change crosspadding");
 		
 		$(".overlay").removeClass("over");
 		
@@ -48,37 +48,21 @@ $(document).ready(function(){
 		
 	});
 	
-		$(".desktop.menu").click(function(){
+		$(".menu").click(function(){
 			
 			$(this).toggleClass("change");
 		
 			$(".overlay").toggleClass("over");
 			
+			$(this).toggleClass("crosspadding");
+			
 		});
-	
-	$(".small-logo .menu").click(function(){
-		
-		$("nav .menu").addClass("change");
-		
-		$(".small-logo .menu").hide();
-		
-		$(".overlay").addClass("over");
-		
-	});
-	
-	$(".change").click(function(){
-		
-		$(".small-logo .menu").show();
-		
-		$(".overlay").removeClass("over");
-		
-	});
 	
 	$("#start").click(function(){
 		
 		$("#about").animate({left:'0'});
 		$(".small-logo").show();
-		$(".menu desktop").show();
+		$(".menu").show();
 		
 	});
 	
@@ -90,7 +74,7 @@ $(document).ready(function(){
 		
 		$("#event").animate({right:"100%"});
 		
-		$(".menu").removeClass("change");
+		$(".menu").removeClass("change crosspadding");
 		
 		$(".overlay").removeClass("over");
 	});
@@ -103,7 +87,7 @@ $(document).ready(function(){
 		
 		$("#about").animate({left:"100%"});
 		
-		$(".menu").removeClass("change");
+		$(".menu").removeClass("change crosspadding");
 		
 		$(".overlay").removeClass("over");
 		
