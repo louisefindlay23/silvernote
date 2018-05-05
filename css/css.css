@@ -671,7 +671,7 @@ hr {
 }
 
 .left-col {
-	padding: 0;
+	padding: 5% 0 0 0;
 }
 
 .small-logo {
@@ -691,13 +691,36 @@ hr {
 	padding-left: 5%;
 }
 
+	.fa-sort-down {
+		position: absolute;
+		z-index: 2;
+	}	
+	
+	.dropdown {
+		position: relative;
+	}
+	
 .dropdownmenu {
+	width: 100%;
+	height: auto;
+	overflow: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	padding-bottom: 5%;
+	position: absolute;
+	background: #1e1e1e;
+	z-index: 5;
+	padding: 10% 0 10% 0;
+}
+
+	.arrowmargin {
+		margin-top: 5%;
+	}
+	
+.right-col {
+	padding-left: 0;
 }
 
 .dropdownmenu p {
@@ -705,17 +728,7 @@ hr {
 	height: auto;
 	text-align: center;
 }
-
-/* Dropdown Content (Hidden by Default) */
-.dropdowncontent {
-    display: flex;
-    position: absolute;
-    width: 100%;
-	height: auto;
-    border: 1px solid #fff;
-	z-index: 1;
-}
-
+	
 .eventlogo {
 	width: 80%;
 	height: auto;

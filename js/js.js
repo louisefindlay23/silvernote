@@ -136,8 +136,12 @@ $(".small-logo img").click(function(){
 	});
 	
 $(".fa-sort-down").click(function(){
+	
+		$(".left-col img").toggle();
 		
 		$(".dropdownmenu").toggle();
+	
+		$(".arrow img").toggleClass("arrowmargin");
 		
 	});
 	
