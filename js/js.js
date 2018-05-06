@@ -8,6 +8,8 @@ $(document).ready(function(){
 	
 	$("#hm").click(function(){
 		
+		$("#home").show();
+		
 		$("#about").animate({left:'100%'});
 		
 		$("#artists").animate({top:"100%"});
@@ -22,6 +24,8 @@ $(document).ready(function(){
 	
 	$(".small-logo img").click(function(){
 		
+		$("#home").show();
+		
 		$("#about").animate({left:'100%'});
 		
 		$("#artists").animate({top:"100%"});
@@ -35,6 +39,8 @@ $(document).ready(function(){
 	});
 	
 	$("#ab").click(function(){
+		
+		$("#about").show();
 		
 		$("#about").animate({left:'0'});
 		
@@ -59,7 +65,7 @@ $(document).ready(function(){
 		});
 	
 	$("#start").click(function(){
-		
+		$("#about").show();
 		$("#about").animate({left:'0'});
 		$(".small-logo").show();
 		$(".menu").show();
@@ -67,6 +73,8 @@ $(document).ready(function(){
 	});
 	
 	$("#art").click(function(){
+		
+		$("#artists").show();
 		
 		$("#artists").animate({top:"0"});
 		
@@ -80,6 +88,8 @@ $(document).ready(function(){
 	});
 	
 	$("#ev").click(function(){
+		
+		$("#event").show();
 		
 		$("#event").animate({right:"0"});
 		
@@ -95,11 +105,15 @@ $(document).ready(function(){
 	
 	$("#down").click(function(){
 		
+		$("#artists").show();
+		
 		$("#artists").animate({top:"0"});
 		
 	});
 	
 	$("#left").click(function(){
+		
+		$("#event").show();
 		
 		$("#event").animate({right:"0"});
 		
