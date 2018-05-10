@@ -709,11 +709,6 @@ hr {
 	float: left;
 	padding-left: 5%;
 }
-
-	.fa-sort-down {
-		position: absolute;
-		z-index: 2;
-	}	
 	
 	.dropdown {
 		position: relative;
