@@ -149,7 +149,7 @@ $(".small-logo img").click(function(){
 		
 	});
 	
-$(".fa-sort-down").click(function(){
+$(".left-col h4").click(function(){
 		
 		$(".dropdownmenu").toggle();
 		
