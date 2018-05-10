@@ -619,6 +619,11 @@ ul#nav {
 	position: static;
 	left: 100%;
 }
+	
+#event {
+	position: static;
+	left: 100%;	
+	}
 
 .band-social {
 	justify-content: space-between;
@@ -710,9 +715,9 @@ hr {
 	padding-left: 5%;
 }
 	
-	.dropdown {
-		position: relative;
-	}
+.dropdown {
+	position: relative;
+}
 	
 .dropdownmenu {
 	width: 100%;

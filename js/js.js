@@ -235,13 +235,17 @@ $(".mobartistarrow").click(function(){
 		
 	});
 	
-$("#hm").click(function(){
+$("#hm-mobile").click(function(){
 	
 		$("#artists").hide();
 		
 		$("#event").hide();
 	
 		$("#about").show();
+	
+		$(".menu").removeClass("change crosspadding");
+		
+		$(".overlay").removeClass("over");
 	
 	});
 	
