@@ -623,6 +623,7 @@ ul#nav {
 #event {
 	position: static;
 	left: 100%;	
+	background: #1e1e1e;
 	}
 
 .band-social {
