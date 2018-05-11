@@ -503,7 +503,7 @@ video {
 	}
 	
 	.tablet {
-		display: none
+		display: none;
 	}
 	
 	#rk-img {
@@ -705,6 +705,7 @@ hr {
 	overflow: auto;
 	top: 3%;
 	right: 0;
+	z-index: auto;
 }
 
 .small-logo img{
