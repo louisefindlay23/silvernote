@@ -36,8 +36,6 @@ $(document).ready(function(){
 		
 		$(".overlay").removeClass("over");
 		
-		$(".small-logo img").hide();
-		
 	});
 	
 	$("#ab").click(function(){
@@ -136,23 +134,19 @@ $("#mobaboutarrow").click(function(){
 		$(".menu").show();
 	
 		$("#event").animate({right:"0"});
+		
+	});
 	
-		$(".small-logo img").off('click');
+$(".small-logo img").click(function(){
+		
+		$("#about").show();
 	
-			$(".small-logo img").click(function(){
-
-				$("#artists").hide();
-
-				$("#event").hide();
-
-				$("#about").show();
-
-				$(".menu").removeClass("change crosspadding");
-
-				$(".overlay").removeClass("over");
-
-		});
+		$(".menu").hide();
+		
+		$("#artists").hide();
 	
+		$("#event").hide();
+		
 	});
 	
 $(".left-col h4").click(function(){
@@ -241,7 +235,7 @@ $(".mobartistarrow").click(function(){
 		
 	});
 	
-$(".hm-mobile").click(function(){
+$("#hm-mobile").click(function(){
 	
 		$("#artists").hide();
 		
