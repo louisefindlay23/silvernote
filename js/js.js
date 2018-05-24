@@ -20,6 +20,8 @@ $(document).ready(function(){
 		
 		$(".overlay").removeClass("over");
 		
+		$(".small-logo img").hide();
+		
 	});
 	
 	$(".small-logo img").click(function(){
@@ -54,6 +56,8 @@ $(document).ready(function(){
 		
 		$(".overlay").removeClass("over");
 		
+		$(".small-logo img").show();
+		
 	});
 	
 		$(".menu").click(function(){
@@ -70,6 +74,7 @@ $(document).ready(function(){
 		$("#about").show();
 		$("#about").animate({left:'0'});
 		$(".small-logo").show();
+		$(".small-logo img").show();
 		$(".menu").show();
 		
 	});
