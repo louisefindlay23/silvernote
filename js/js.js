@@ -163,6 +163,20 @@ $("#mobaboutarrow").click(function(){
 $(".left-col h4").click(function(){
 		
 		$(".dropdownmenu").toggle();
+	
+		$(".left-col img, .right-col, .arrow").toggle();
+	
+		$("#left").hide();
+	
+		$("#Artist1, #Artist2, #Artist3, #Artist4, #Artist5, #Artist6").addClass("artistpadding");
+		
+	});
+	
+$(".dropdownmenu p").click(function(){
+		
+		$("#Artist1, #Artist2, #Artist3, #Artist4, #Artist5, #Artist6").removeClass("artistpadding");
+		$(".left-col img, .right-col, .arrow").toggle();
+		$("#left").hide();
 		
 	});
 	

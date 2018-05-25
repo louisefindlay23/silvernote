@@ -802,8 +802,13 @@ hr {
 	overflow: auto;
 	margin-top: 5%;
 }
+	
+.artistpadding {
+	padding-bottom: 120%;
+}
 
 .padding {
 	padding-left: 10%;
 }
-	}
+	
+}
