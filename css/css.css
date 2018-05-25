@@ -779,13 +779,21 @@ hr {
 	padding-bottom: 0;
 }
 	
-	.map {
-		width: 100%
-	}
+.map {
+	width: 100%
+}
 	
-	.infomap {
-		width: 100%;
-	}
+#map {
+	display: none;
+}
+	
+.event-content {
+	background: none;
+}
+	
+.infomap {
+	width: 100%;
+}
 
 .info {
 	text-align: center;
@@ -796,6 +804,7 @@ hr {
 	width: 100%;
 	height: auto;
 	overflow: auto;
+	margin-top: 5%;
 }
 
 .padding {
