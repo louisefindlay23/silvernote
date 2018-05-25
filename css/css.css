@@ -807,3 +807,71 @@ hr {
 	padding-left: 10%;
 }
 	}
+
+/* L O A D E R */
+
+#load {
+	width: 100vw;
+	height: 100vh;
+}
+
+.loader{
+  	
+	position: absolute;
+	top: 46%;
+	left: 44%;
+	
+}
+
+
+#loader-6 span{
+  display: inline-block;
+  width: 8px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 0 ;
+}
+
+#loader-6 span:nth-child(1){
+  animation: grow 1s ease-in-out infinite;
+}
+
+#loader-6 span:nth-child(2){
+  animation: grow 1s ease-in-out 0.15s infinite;
+}
+
+#loader-6 span:nth-child(3){
+  animation: grow 1s ease-in-out 0.30s infinite;
+}
+
+#loader-6 span:nth-child(4){
+  animation: grow 1s ease-in-out 0.45s infinite;
+}
+
+#loader-6 span:nth-child(5){
+  animation: grow 1s ease-in-out 60s infinite;
+}
+
+#loader-6 span:nth-child(6){
+  animation: grow 1s ease-in-out 75s infinite;
+}
+
+#loader-6 span:nth-child(7){
+  animation: grow 1s ease-in-out 90s infinite;
+}
+
+@keyframes grow{
+  0%, 100%{
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+
+  50%{
+    -webkit-transform: scaleY(1.8);
+    -ms-transform: scaleY(1.8);
+    -o-transform: scaleY(1.8);
+    transform: scaleY(1.8);
+  }
+}
