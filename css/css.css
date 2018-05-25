@@ -829,7 +829,7 @@ hr {
   width: 8px;
   height: 40px;
   background-color: #fff;
-  border-radius: 0 ;
+  border-radius: 10px ;
 }
 
 #loader-6 span:nth-child(1){
