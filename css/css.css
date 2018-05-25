@@ -735,8 +735,7 @@ hr {
 	z-index: 5;
 	padding: 10% 0 10% 0;
 }
-	
-#bottom {
+.bottom {
 	padding-bottom: 55%;
 }
 	
