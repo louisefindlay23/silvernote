@@ -849,15 +849,15 @@ hr {
 }
 
 #loader-6 span:nth-child(5){
-  animation: grow 1s ease-in-out 60s infinite;
+  animation: grow 1s ease-in-out 0.60s infinite;
 }
 
 #loader-6 span:nth-child(6){
-  animation: grow 1s ease-in-out 75s infinite;
+  animation: grow 1s ease-in-out 0.75s infinite;
 }
 
 #loader-6 span:nth-child(7){
-  animation: grow 1s ease-in-out 90s infinite;
+  animation: grow 1s ease-in-out 0.90s infinite;
 }
 
 @keyframes grow{
