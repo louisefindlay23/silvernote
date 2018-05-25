@@ -727,16 +727,12 @@ hr {
 	overflow: auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	align-content: center;
 	position: absolute;
 	background: #1e1e1e;
 	z-index: 5;
 	padding: 10% 0 10% 0;
-}
-.bottom {
-	padding-bottom: 55%;
 }
 	
 .right-col {
