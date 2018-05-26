@@ -811,8 +811,11 @@ hr {
 /* L O A D E R */
 
 #load {
+	position: absolute;
 	width: 100vw;
 	height: 100vh;
+	z-index: 999;
+	background:rgba(39,39,39,1.00);
 }
 
 .loader{

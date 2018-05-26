@@ -431,3 +431,7 @@ function openBand(evt, bandName) {
 
 // L O A D E R
 
+$(window).on("load", function() {
+    $(".loader").fadeOut();
+    $('#load').fadeOut("slow");
+});
