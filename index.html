@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SilverNote</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/css.css">
@@ -12,19 +13,36 @@
 </head>
 
 <body>
+	
 	<div id="wrapper">
-		<div id="menu">
+		
+		<section id="load">
+			<div class="loader-container">
+				<div class="loader" id="loader-6">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</section>
+		
+		<div class="menu desktop">
 			<div class="bar1"></div>
 			<div class="bar2"></div>
 			<div class="bar3"></div>
 		</div>
-		<div id="site-id">
-		<img src="img/snlogowave.png" alt="SilverNote Logo">
+		<div class="small-logo desktop">
+			<img src="img/snlogowave.png" alt="SilverNote Logo">
 		</div>
 		<nav class="overlay">
 			<ul id="nav">
-				<li class="list"><a id="hm" href="#">Home</a></li>
-				<li class="list"><a id="ab" href="#">About</a></li>
+				<li class="list desktop"><a id="hm" href="#">Home</a></li>
+				<li class="list mobile"><a class="hm-mobile" href="#">Home</a></li>
+				<li class="list desktop"><a id="ab" href="#">About</a></li>
 				<li class="list"><a id="art" href="#">Artists</a></li>
 				<li class="list"><a id="ev" href="#">Events</a></li>
 			</ul>
@@ -34,8 +52,8 @@
 		<video playsinline autoplay muted loop><source src="img/band.mp4" type="video/mp4"></video>
 			<section id="home">
 				<div class="home-container">
-					<div id="logo">
-						<img src="img/snlogo.png" alt="">
+					<div id="bannerlogo">
+						<img src="img/snlogo.png" alt="SilverNote Logo">
 					</div>
 					<div id="start">
 						<p class="startp">Learn more</p>
@@ -45,11 +63,24 @@
 			<section id="about">
 				<div id="about-container">
 					<div class="about-content">
-						<h3>About us</h3>
-						<p>SilverNote is a non-genre specific music label and creative enterprise hub based at North East Scotland College.  From the company structure and the job roles, to the signing, development and distribution of creative products and projects, SilverNote is real-world enterprise, focusing on creative development and, specifically, new music in the North East of Scotland.</p> 
-						<p>SilverNote creates opportunities to work with either the creation or administration and enterprise of creative assets - the two roles which underpin the creative industries as a whole.</p>
-						<p>SilverNote reaches outwards to into the local community to engage and inspire creative professionals and other external organisations as a hub for creative enterprise, and a provider of creative services, products and projects.</p>
-						<p>In addition, SilverNote disseminates artists work globally - raising the profile of new music and artists and creative enterprise in the North East of Scotland.</p>
+						<div class="desktop">
+							<h3>About us</h3>
+							<p>SilverNote is a non-genre specific music label and creative enterprise hub based at North East Scotland College. From the company structure and the job roles, to the signing, development and distribution of creative products and projects, SilverNote is real-world enterprise, focusing on creative development and, specifically, new music in the North East of Scotland.</p>
+							<p>SilverNote creates opportunities to work with either the creation or administration and enterprise of creative assets - the two roles which underpin the creative industries as a whole.</p>
+							<p>SilverNote reaches outwards to into the local community to engage and inspire creative professionals and other external organisations as a hub for creative enterprise, and a provider of creative services, products and projects.</p>
+							<p>In addition, SilverNote disseminates artists work globally - raising the profile of new music and artists and creative enterprise in the North East of Scotland.</p>
+						</div>
+						<div class="mobile">
+							<div class="bannerlogo">
+								<img src="img/snlogo.png" alt="SilverNote Logo">
+							</div>
+							<div class="background">
+								<img src="img/sn3-mobile.jpg" alt="A band playing">	
+							</div>
+							<p>SilverNote is a non-genre specific music label and creative enterprise hub based at North East Scotland College.</p>
+							<p>They creates opportunities to work with either the creation or administration and enterprise of creative assets.</p>
+							<p>In addition, SilverNote disseminates artists work globally - raising the profile of new music and artists and creative enterprise in the North East of Scotland.</p>
+						</div>
 						<div class="band-social">
 							<div><a href="https://www.facebook.com/silvernotemusic" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
 							<div><a href="https://www.instagram.com/silvernoteproductions/" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
@@ -57,15 +88,26 @@
 							<div><a href="mailto:silvernote@nescol.ac.uk" target="_blank"><img src="img/email.png" alt="Email Logo"></a>
 							</div>
 						</div>
-						<div class="arrow" id="down"></div>	
+						<div class="arrow desktop" id="down">
+						</div>	
+						<div class="arrow mobile" id="mobaboutarrow">
+							<img src="img/arrowd.png" alt="down arrow">
+						</div>	
 					</div>		
 				</div>
 			</section>
 			<section id="artists">
 				<div class="arrow" id="left">
-					
 				</div>
 				<div id="bands">
+					<div class="small-logo">
+						<img src="img/snlogowave.png" alt="SilverNote Logo">
+						<div class="menu">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+					</div>
 					<div class="tab">
 						<button class="tablinks active" onclick="openBand(event, 'Artist1')">Katie Mackie and the Multi-Loves</button>
 						<button class="tablinks" onclick="openBand(event, 'Artist2')">Shannon Feely</button>
@@ -76,9 +118,9 @@
 					</div>
 					<hr>
 					<div id="Artist1" class="tabcontent active" style="display: block">
-						<div class="row">
+						<div class="row desktop">
 							<div class="left-col">
-								<img src="img/kmatml.jpg" alt="Band Picture">
+								<img src="img/kmatml.jpg" alt="Katie Mackie artist image">
 							</div>
 							<div class="right-col">
 								<h4>Katie Mackie and the Multi-Loves</h4>
@@ -90,39 +132,87 @@
 									<div> <a href="km-sc.html" onclick="window.open('km-sc.html', 'newwindow','width=455,height=155'); return false;"> <img src="img/sc.png" alt="Soundcloud Logo"></a></div>
 								</div>
 							</div>
+							<div class="arrow mobile mobartistarrow">e
+								<img src="img/arrowd.png" alt="down arrow">
+							</div>
+						</div>
+						<div class="row mobile">
+							<div class="left-col">
+								<h4>Katie Mackie &nbsp; <i class="fas fa-sort-down"></i></h4>
+								<div class="dropdownmenu">
+									<p class="shannon">Shannon Feeley</p>
+									<p class="jamie">Jamie and Hannah</p>
+									<p class="josh">Josh Byres</p>
+									<p class="red">RedKid</p>
+									<p class="glass">Glass Monkey</p>
+								</div>
+								<img src="img/kmatml.jpg" alt="Katie Mackie artist image">
+							</div>
+							<div class="right-col">
+								<p>Katie Mackie is a music student based in Aberdeen with years of playing and gigging experience.</p>
+								<p>She has supported the likes of Fatherson, Fickle Friends, Bella and the Bear, Mo Kenney, The Little Kicks and Nieves within previous bands and as a solo artist.</p>
+								<div class="band-social">
+									<div><a href="https://www.facebook.com/katiemackiemusic/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="https://www.youtube.com/watch?v=js1DHNro1KM" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+									<div> <a href="https://soundcloud.com/katie-mackie-2" target="_blank"> <img src="img/sc.png" alt="Soundcloud Logo"></a></div>
+								</div>
+							</div>
+							<div class="arrow mobartistarrow">
+								<img src="img/arrowd.png" alt="down arrow">
+							</div>
 						</div>
 					</div>
 					
 					<div id="Artist2" class="tabcontent">
-						<div class="row">
+						<div class="row desktop">
 							<div class="left-col">
-								<img src="img/shannonfeeley.jpg" alt="Band Picture">
+								<img src="img/shannonfeeley.jpg" alt="Shannon Feely artist image">
 							</div>
 							<div class="right-col">
 								<h4>Shannon Feely</h4>
 								<p>Shannon Feely is a 20-year-old singer songwriter from Aberdeen. She has taken part in various gigs over the years in a range of venues including The Lemon Tree in Aberdeen and Airdrie Town Hall.</p>
-								<p>Shannon wrote and recorded a 4-track EP in 2017 and is working on developing that this year in the hope of releasing some of her music later in the year with original songs such as; ‘Falling Apart’, ‘City that never Sleeps’ and ‘I’ve got to be Me’ featuring in this project.</p>
+								<p>Shannon wrote and recorded a 4-track EP in 2017 and is working on developing that this year <i class="tablet">in the hope of releasing some of her music later in the year with original songs such as; ‘Falling Apart’, ‘City that never Sleeps’ and ‘I’ve got to be Me’ featuring in this project.</i></p>
 								<div class="band-social">
 									<div><a href="https://soundcloud.com/user-890710754" target="_blank"><img src="img/sc.png" alt="Soundcloud Logo"></a></div>
 								</div>
 							</div>
 						</div>
+						<div class="row mobile">
+							<div class="left-col">
+								<h4>Shannon Feeley &nbsp; <i class="fas fa-sort-down"></i></h4>
+								<div class="dropdownmenu">
+									<p class="jamie">Jamie and Hannah</p>
+									<p class="josh">Josh Byres</p>
+									<p class="red">RedKid</p>
+									<p class="glass">Glass Monkey</p>
+									<p class="katie">Katie Mackie</p>
+								</div>
+								<img src="img/shannonfeeley.jpg" alt="Shannon Feeley artist image">
+							</div>
+							<div class="right-col">
+								<p>Shannon Feely is a 20-year-old singer songwriter from Aberdeen.</p>
+								
+								<p>She has taken part in various gigs over the years in a range of venues including The Lemon Tree in Aberdeen and Airdrie Town Hall.</p>
+								
+								<p>She also wrote and recorded a 4-track EP in 2017 and is working on developing that this year.</p>
+								<div class="band-social" id="one">
+									<div><a href="https://soundcloud.com/user-890710754" target="_blank"><img src="img/sc.png" alt="Soundcloud Logo"></a></div>
+								</div>
+							</div>
+							<div class="arrow mobartistarrow">
+								<img src="img/arrowd.png" alt="down arrow">
+							</div>
+						</div>
 					</div>
 					
 					<div id="Artist3" class="tabcontent">
-						<div class="row">
+						<div class="row desktop">
 							<div class="left-col">
-								<img src="img/jamieandhannah.jpg" alt="Band Picture">
+								<img src="img/jamieandhannah.jpg" alt="Jamie and Hannah artist image">
 							</div>
 							<div class="right-col">
 								<h4>Jamie and Hannah</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-									incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
-									parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
-									vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
-									sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
-									ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
-									congue quisque gestas diam in.
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. <i class="tablet"> Et sollicitudin ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas congue quisque gestas diam in. </i>
 								</p>
 								<div class="band-social">
 									<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
@@ -132,22 +222,48 @@
 								</div>
 							</div>
 						</div>
+						<div class="row mobile">
+							<div class="small-logo">
+								<img src="img/snlogowave.png" alt="SilverNote Logo">
+							</div>
+							
+							<div class="left-col">
+								<h4>Jamie and Hannah &nbsp; <i class="fas fa-sort-down"></i></h4>
+								<div class="dropdownmenu">
+									<p class="josh">Josh Byres</p>
+									<p class="red">RedKid</p>
+									<p class="glass">Glass Monkey</p>
+									<p class="katie">Katie Mackie</p>
+									<p class="shannon">Shannon Feeley</p>
+								</div>
+								<img src="img/jamieandhannah.jpg" alt="Jamie and Hannah artist image">
+							</div>
+							<div class="right-col">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								
+								<p>Natoque penatibus et magnis dis parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Non arcu risus quis varius quam quisque id diam vel.</p>
+								
+								<div class="band-social">
+									<div><a href="#" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/insta.png" alt="Instagram Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a></div>
+									<div><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+								</div>
+							</div>
+							<div class="arrow mobartistarrow">
+								<img src="img/arrowd.png" alt="down arrow">
+							</div>
+						</div>
 					</div>
 					
 					<div id="Artist4" class="tabcontent">
-						<div class="row">
+						<div class="row desktop">
 							<div class="left-col">
-								<img src="img/joshbyres.jpg" alt="Band Picture">
+								<img src="img/joshbyres.jpg" alt="Josh Byres artist image">
 							</div>
 							<div class="right-col">
 								<h4>Josh Byres</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-									incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis 
-									parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus 
-									vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam 
-									sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin 
-									ac orci phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas 
-									congue quisque gestas diam in.
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Non arcu risus quis varius quam quisque id diam vel. Leo a diam sollicitudin tempor id eu nisl. Leo in vitae turpis massa sed. Et sollicitudin ac orci <i class="tablet"> phasellus egestas. Egestas dui id ornare arcu odio ut. Neque egestas congue quisque gestas diam in. </i>
 								</p>
 								<div class="band-social">
 									<div><a href="https://www.facebook.com/JoshByresMusic" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
@@ -157,18 +273,50 @@
 								</div>
 							</div>
 						</div>
+						<div class="row mobile">
+							<div class="small-logo">
+								<img src="img/snlogowave.png" alt="SilverNote Logo">
+							</div>
+							
+							<div class="left-col">
+								<h4>Josh Byres &nbsp; <i class="fas fa-sort-down"></i></h4>
+								<div class="dropdownmenu">
+									<p class="red">RedKid</p>
+									<p class="glass">Glass Monkey</p>
+									<p class="katie">Katie Mackie</p>
+									<p class="shannon">Shannon Feeley</p>
+									<p class="jamie">Jamie and Hannah</p>
+								</div>
+								<img src="img/joshbyres.jpg" alt="Josh Byres artist image">
+							</div>
+							<div class="right-col">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								
+								<p>Natoque penatibus et magnis dis parturient montes. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Non arcu risus quis varius quam quisque id diam vel.</p>
+								
+								<div class="band-social">
+									<div><a href="https://www.facebook.com/JoshByresMusic" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div> <a href="https://open.spotify.com/artist/7mwC4LNHKoQRISNsncvJ7n" target="_blank"> <img src="img/spotifyw.png" alt="Spotify Logo"></a></div>
+									<div> <a href="https://itunes.apple.com/gb/artist/josh-byres/1333014294" target="_blank"> <img src="img/apple.png" alt="Apple Music Logo"></a></div>
+									<div> <a href="https://www.deezer.com/us/artist/13894395" target="_blank"> <img src="img/deezer.png" alt="Deezer Logo"></a></div>
+								</div>
+							</div>
+							<div class="arrow mobartistarrow">
+								<img src="img/arrowd.png" alt="down arrow">
+							</div>
+						</div>
 					</div>
 					
 					<div id="Artist5" class="tabcontent">
-						<div class="row">
+						<div class="row desktop">
 							<div class="left-col">
-								<img src="img/rk.jpg" alt="Band Picture">
+								<img id="rk-img" src="img/rk.jpg" alt="RedKid artist image">
 							</div>
 							<div class="right-col">
 								<h4>RedKid</h4>
 								<p>RedKid, is a new and upcoming vocal artist but prefers the colour blue. He started sing professionally three years ago, after being complemented on his voice.</p>
 								<p>He currently has two EPs and is working on an album. RedKid’s long term goal is to be a song writer.</p>	
-								<p>The name RedKid came from a friend saying “You look like a RedKid.” While his hair was dyed red. The name stuck and we have RedKid.</p>
+								<p class="tablet">The name RedKid came from a friend saying “You look like a RedKid.” While his hair was dyed red. The name stuck and we have RedKid.</p>
 								<div class="band-social">
 									<div><a href="https://www.facebook.com/RedKidARoo/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
 									<div><a href="https://www.youtube.com/channel/UC5R7oprAmftBdmRTf99pOzA" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
@@ -176,33 +324,103 @@
 								</div>
 							</div>
 						</div>
+						<div class="row mobile">
+							<div class="small-logo">
+								<img src="img/snlogowave.png" alt="SilverNote Logo">
+							</div>
+							
+							<div class="left-col">
+								<h4>RedKid &nbsp; <i class="fas fa-sort-down"></i></h4>
+								<div class="dropdownmenu">
+									<p class="glass">Glass Monkey</p>
+									<p class="katie">Katie Mackie</p>
+									<p class="shannon">Shannon Feeley</p>
+									<p class="jamie">Jamie and Hannah</p>
+									<p class="josh">Josh Byres</p>
+								</div>
+								<img src="img/rk.jpg" alt="RedKid artist image">
+							</div>
+							<div class="right-col">
+								<p>RedKid, is a new and upcoming vocal artist but prefers the colour blue. </p>
+								
+								<p>He started sing professionally three years ago, after being complemented on his voice.</p>
+								
+								<p>He currently has two EPs and is working on an album. RedKid’s long term goal is to be a song writer.</p>
+								
+								<div class="band-social">
+									<div><a href="https://www.facebook.com/RedKidARoo/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="https://www.youtube.com/channel/UC5R7oprAmftBdmRTf99pOzA" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+									<div> <a href="https://soundcloud.com/jck-14" target="_blank"> <img src="img/sc.png" alt="Soundcloud Logo"></a></div>
+								</div>
+							</div>
+							<div class="arrow mobartistarrow">
+								<img src="img/arrowd.png" alt="down arrow">
+							</div>
+						</div>
 					</div>
 					
 					<div id="Artist6" class="tabcontent">
-						<div class="row">
+						<div class="row desktop">
 							<div class="left-col">
-								<img src="img/gm.jpg" alt="Band Picture">
+								<img src="img/gm.jpg" alt="Glass Monkey artist image">
 							</div>
 							<div class="right-col">
 								<h4>Glass Monkey</h4>
 								<p>Starting as a cover band in 2014, Glass Monkey moved onto writing their own songs. </p>
 								<p>They've been playing small gigs around Aberdeen City and Shire, and have a passion for playing live gigs.</p> 
-								<p>Glass Monkey's influences range throughout pop punk and rock music, taking inspiration from artists such as The Foo Fighters, Neck Deep, Waterparks and All Time Low.</p> 
+								<p class="tablet">Glass Monkey's influences range throughout pop punk and rock music, taking inspiration from artists such as The Foo Fighters, Neck Deep, Waterparks and All Time Low.</p> 
 								<div class="band-social">
 									<div><a href="https://www.facebook.com/GlassMonkeyBand/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
 									<div><a href="https://www.youtube.com/channel/UCL8x_uARr-k1S0_5wGqwyqA/videos" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
 								</div>
 							</div>
 						</div>
+						<div class="row mobile">
+							<div class="small-logo">
+								<img src="img/snlogowave.png" alt="SilverNote Logo">
+							</div>
+							
+							<div class="left-col">
+								<h4>Glass Monkey &nbsp; <i class="fas fa-sort-down"></i></h4>
+								<div class="dropdownmenu">
+									<p class="katie">Katie Mackie</p>
+									<p class="shannon">Shannon Feeley</p>
+									<p class="jamie">Jamie and Hannah</p>
+									<p class="josh">Josh Byres</p>
+									<p class="red">RedKid</p>
+								</div>
+								<img src="img/gm.jpg" alt="Glass Monkey artist image">
+							</div>
+							<div class="right-col">
+								<p>Starting as a cover band in 2014, Glass Monkey moved onto writing their own songs. </p>
+								<p>Glass Monkey's influences range throughout pop punk and rock music, taking inspiration from artists such as The Foo Fighters, Neck Deep, Waterparks and All Time Low.</p>
+								
+								<div class="band-social" id="two">
+									<div><a href="https://www.facebook.com/GlassMonkeyBand/" target="_blank"><img src="img/fb.png" alt="Facebook Logo"></a></div>
+									<div><a href="https://www.youtube.com/channel/UCL8x_uARr-k1S0_5wGqwyqA/videos" target="_blank"><img src="img/youtube.png" alt="YouTube Logo"></a></div>
+								</div>
+							</div>
+							<div class="arrow mobartistarrow">
+								<img src="img/arrowd.png" alt="down arrow">
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section id="event">
-				<div class="event-content">
+				<div class="small-logo">
+					<img src="img/snlogowave.png" alt="SilverNote Logo">
+					<div class="menu">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</div>
+				<div class="event-content desktop">
 					<div class="eventlogo">
 						<img src="img/eventlogo.png" alt="Artist Expo Logo">
 					</div>
-					<div id="infomap">
+					<div class="infomap">
 						<div class="info">
 							<h3> 14th of February 2018 <i class="far fa-calendar-alt"></i></h3>
 							<h3> Starts at 7.30pm <i class="far fa-clock"></i></h3>
@@ -210,10 +428,29 @@
 							<h3> Address <i class="fas fa-map-marker"></i></h3>
 							<p><b><a href="https://www.google.com/maps/place/The+Lemon+Tree" target="_blank">The Lemon Tree <i class="fas fa-external-link-alt"></i></b></a><br>5 W N St,<br>Aberdeen AB24 5AT<br>United Kingdom</p>
 							<h3> Bus (Stop: Shoe Lane) <i class="fas fa-bus"></i></h3>
-							<p>8, 9, 11, 16, 17 ,17A ,18, 18A, 20 ,23 ,25, 727, Platinum 19</p>
+							<p>8, 9, 11, 16, 17, 17A, 18, 18A, 20, 23, 25, 727, Platinum 19</p>
 						</div>
 						<div class="map">
 							<div id="map"></div>
+						</div>
+					</div>
+				</div>
+				<div class="event-content mobile">
+					<div class="eventlogo">
+						<img src="img/eventlogo.png" alt="Artist Expo Logo">
+					</div>
+					<div class="infomap">
+						<div class="map">
+							<div id="map"></div>
+							<div class="info">
+								<h3><i class="far fa-calendar-alt"></i> &nbsp; &nbsp; 14th of February 2018</h3>
+								<h3><i class="far fa-clock"></i> &nbsp; &nbsp; Starts at 7.30pm</h3>
+								<h3><i class="fas fa-ticket-alt"></i> &nbsp; &nbsp; Free Admission</h3>
+								<h3><i class="fas fa-map-marker"></i> &nbsp; &nbsp; Address</h3>
+								<p class="padding"><b><i class="fas fa-external-link-alt"></i><a href="https://www.google.com/maps/place/The+Lemon+Tree" target="_blank"> &nbsp; &nbsp; The Lemon Tree</b></a> <br> &nbsp; &nbsp; &nbsp; 5 W N St,<br> &nbsp; &nbsp; &nbsp; Aberdeen AB24 5AT<br> &nbsp; &nbsp; &nbsp; United Kingdom</p>
+								<h3><i class="fas fa-bus"></i> &nbsp; &nbsp; Bus (Stop: Shoe Lane)</h3>
+								<p class="padding"> 8, 9, 11, 16, 17, 17A, 18, 18A, <br>20, 23, 25, 727, Platinum 19</p>
+							</div>
 						</div>
 					</div>
 				</div>
