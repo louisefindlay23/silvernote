@@ -58,7 +58,7 @@ body {
 	width: 100%;
 	bottom: 100%;
 	transition: ease 0.5s;
-	background: rgba(0,0,0,0.85)
+	background: rgba(0,0,0,0.85);
   background: -moz-linear-gradient(top, rgba(59,59,59,0.99) 0%, rgba(23,15,23,0.99) 50%, rgba(0,0,0,0.99) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(59,59,59,0.99)), color-stop(50%, rgba(23,15,23,0.99)), color-stop(100%, rgba(0,0,0,1)));
   background: -webkit-linear-gradient(top, rgba(59,59,59,0.99) 0%, rgba(23,15,23,0.99) 50%, rgba(0,0,0,0.99) 100%);
