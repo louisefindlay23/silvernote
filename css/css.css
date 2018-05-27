@@ -812,3 +812,15 @@ hr {
 }
 	
 }
+
+@media screen and (min-height: 500px) {
+	.artistpadding {
+		padding-bottom: 160%;
+	}	
+}
+
+@media screen and (min-height: 800px) {
+	.artistpadding {
+		padding-bottom: 180%;
+	}	
+}

@@ -168,7 +168,7 @@ $(".left-col h4").click(function(){
 	
 		$("#left").hide();
 	
-		$("#Artist1, #Artist2, #Artist3, #Artist4, #Artist5, #Artist6").addClass("artistpadding");
+		$("#Artist1, #Artist2, #Artist3, #Artist4, #Artist5, #Artist6").toggleClass("artistpadding");
 		
 	});
 	
