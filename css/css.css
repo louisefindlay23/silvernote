@@ -73,7 +73,6 @@ body {
 }
 
 #nav{
-	list-style-type: none;
 	height: 60%;
 	display: flex;
 	flex-direction: column;
@@ -81,9 +80,14 @@ body {
 	justify-content: space-around;
 }
 
+#nav-ul {
+	list-style-type: none;
+}
+
 .list{
 	width:100%;
 	font-size:2vw;
+	margin: 8vh 0;
 }
 
 .list a {
