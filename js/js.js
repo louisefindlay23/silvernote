@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	$("#load").delay(1000).fadeOut("slow" , );
+	$(".loader").delay(1000).fadeOut("200");
+	$("#load").delay(1500).fadeOut("400");
 });
 
 function randomIntFromInterval(min,max) {
