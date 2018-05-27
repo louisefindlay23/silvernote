@@ -813,7 +813,7 @@ hr {
 #load {
 	position: absolute;
 	width: 100vw;
-	height: 100vh;
+	height: 110vh;
 	z-index: 999;
 	background:rgba(39,39,39,1.00);
 }

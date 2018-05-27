@@ -1,3 +1,7 @@
+$(document).ready(function(){
+	$("#load").delay(1000).fadeOut("slow" , );
+});
+
 function randomIntFromInterval(min,max) {
   return Math.floor(Math.random()*(max-min+1)+min);
 }
@@ -431,7 +435,3 @@ function openBand(evt, bandName) {
 
 // L O A D E R
 
-$(window).on("load", function() {
-    $(".loader").fadeOut();
-    $('#load').fadeOut("slow");
-});
