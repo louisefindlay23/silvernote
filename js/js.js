@@ -202,6 +202,8 @@ $(document).ready(function(){
 		$(".small-logo img").show();
 		$(".menu").show();
 		
+		$("#site-id").fadeIn();
+		
 	});
 	
 	$("#art").click(function(){
