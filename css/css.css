@@ -48,10 +48,6 @@ body {
 }
 
 .overlay {
-	display: flex;
-	justify-content: flex-start;
-	align-content: center;
-	flex-direction: column;
 	position: fixed;
 	z-index: 10;
 	height: 100vh;
@@ -600,15 +596,12 @@ video {
 	}
 	
 	ul#nav {
-		display: flex;
-		flex-direction: column;
 		justify-content: space-between;
 		padding: 0;
 	}
 	
 	.list {
 		font-size: 25pt;
-		padding-top: 10%;
 	}
 	
 	.bannerlogo {
