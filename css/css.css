@@ -423,23 +423,18 @@ video {
 	height: 100vh;
 	width: 100%;
 	background: rgba(0, 0, 0, 0.40);
-	display: flex;
+	display: flex!important;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
 .eventlogo {
-	width: 100%;
-	height: auto;
-	overflow: auto;
+	max-width: 500px;
 }
 
 .eventlogo img {
-	width: 25%;
-	height: auto;
-	overflow: auto;
-	padding: 5% 0 0 40%;
+	width: 100%;
 }
 
 .infomap {
@@ -507,22 +502,16 @@ video {
 
 /* M O B I L E */
 
-@media screen and (max-width: 1024px) {
-	.tabcontent {
-		width: 90%;
-	}
-	
-	.tablet {
-		display: none;
-	}
-	
-	#rk-img {
-		width: 90%;
-	}
-	
-	#left {
-		left: 2%;
-	}
+@media screen and (min-height: 500px) {
+	.artistpadding {
+		padding-bottom: 160%;
+	}	
+}
+
+@media screen and (min-height: 800px) {
+	.artistpadding {
+		padding-bottom: 180%;
+	}	
 }
 
 @media screen and (max-width: 480px) {
@@ -755,9 +744,10 @@ video {
 	
 	.eventlogo {
 		width: 80%;
-		height: auto;
+		height: 50%;
 		overflow: auto;
-		padding: 25% 0 0 10%;
+		padding: 25% 0 0 0%;
+		text-align: center;
 	}
 	
 	.eventlogo img {
@@ -796,6 +786,7 @@ video {
 	
 	.infomap {
 		width: 100%;
+		margin-top: 7.5%;
 	}
 	
 	.info {
@@ -880,18 +871,6 @@ video {
 		transform: scaleY(1.8);
 	}
 }
-
-.info {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: auto;
-	overflow: auto;
-	margin-top: 5%;
-}
 	
 .artistpadding {
 	padding-bottom: 120%;
@@ -901,14 +880,20 @@ video {
 	padding-left: 10%;	
 }
 
-@media screen and (min-height: 500px) {
-	.artistpadding {
-		padding-bottom: 160%;
-	}	
-}
-
-@media screen and (min-height: 800px) {
-	.artistpadding {
-		padding-bottom: 180%;
-	}	
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+	.tabcontent {
+		width: 90%;
+	}
+	
+	.tablet {
+		display: none;
+	}
+	
+	#rk-img {
+		width: 90%;
+	}
+	
+	#left {
+		left: 2%;
+	}
 }
