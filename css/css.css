@@ -891,9 +891,7 @@ video {
 }
 
 .padding {
-	padding-left: 10%;
-}
-	
+	padding-left: 10%;	
 }
 
 @media screen and (min-height: 500px) {
