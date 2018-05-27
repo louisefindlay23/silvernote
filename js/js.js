@@ -1,4 +1,129 @@
-// JavaScript Document
+$(document).ready(function(){
+	$(".loader").delay(1000).fadeOut("200");
+	$("#load").delay(1500).fadeOut("400");
+});
+
+function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});function randomIntFromInterval(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+});// JavaScript Document
 $(document).ready(function(){
 	"use strict";
 	
@@ -322,3 +447,6 @@ function openBand(evt, bandName) {
     document.getElementById(bandName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+// L O A D E R
+
