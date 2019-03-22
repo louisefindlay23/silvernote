@@ -1,12 +1,27 @@
-### Website project for SilverNote
+![SilverNote logo](https://scontent.fman1-2.fna.fbcdn.net/v/t31.0-8/14481794_287385264978419_4583512349960319179_o.jpg?_nc_cat=104&_nc_ht=scontent.fman1-2.fna&oh=fecd0af68714086ef5cf9b949da0c484&oe=5D08E53A)
 
-## WARNING  :warning:
-Please from now on if you are about to add code, it would be best to fork the repo and create a pull request to make sure no code is lost and avoid breaking the website. You can learn more about forking and pull request at the [following link](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) (give it a try, I promise it is simple)
+### About SilverNote Music
 
-# Useful Links  :link:
+SilverNote Music is a music enterprise hub in Aberdeen that want to promote new music. They take young artists, bands and backstage sound and lighting crew and provide events and compile CDs so they can network within the industry without being locked into a label.
 
-[Live Development Website](https://florin235.github.io/silvernote/)
+### About the Project
 
-[Slack #worldskills @nescolwebdev](https://nescolwebdev.slack.com/)
+They tasked me and three others to work as a team to create a responsive website that catered to those viewing on computers as well as a younger, mobile audience.
 
-[OneDrive Project Folder](https://nescol-my.sharepoint.com/:f:/g/personal/30058089_nescol_ac_uk/EnanQ24rR4pAiKvbnLootosBiE1BTSWyFioOT8aUvgYPxg?e=LdSlRl)
+My main responsibilities were communicating with our client and developing the artist page. I pitched the prototype to the wider organisation and gathered feedback from the band members. This feedback informed the music players I created on the artist profiles.
+
+The artist profiles contain music streaming links which popup a small window streaming the artist's songs from Spotify, Deezer and Apple Music using the SilverNote brand colours where possible.
+
+### Collaborators
+
+[@louisefindlay23](https://github.com/louisefindlay23)
+
+[@florin235](https://github.com/Florin235)
+
+[@gfrcsd](https://github.com/gfrcsd)
+
+[@zSaibot](https://github.com/zSaibot)
+
+### Useful Links  :link:
+
+[Live Development Website](https://louisefindlay23.github.io/silvernote)
