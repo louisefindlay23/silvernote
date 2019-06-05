@@ -24,4 +24,4 @@ The artist profiles contain music streaming links which popup a small window str
 
 ### Useful Links  :link:
 
-[Live Development Website](https://louisefindlay23.github.io/silvernote)
+[Website](https://louisefindlay23.github.io/silvernote)
