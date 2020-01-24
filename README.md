@@ -1,4 +1,4 @@
-![SilverNote logo](https://scontent.fman1-2.fna.fbcdn.net/v/t31.0-8/14481794_287385264978419_4583512349960319179_o.jpg?_nc_cat=104&_nc_ht=scontent.fman1-2.fna&oh=fecd0af68714086ef5cf9b949da0c484&oe=5D08E53A)
+![SilverNote logo](https://github.com/louisefindlay23/silvernote/raw/master/img/24B901EC-61C0-470A-A070-3E8DB4510DFB.jpeg)
 
 ### About SilverNote Music
 
